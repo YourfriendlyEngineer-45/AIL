@@ -1,0 +1,1 @@
+{"version":1,"program":[{"function":{"name":"add","params":["a","b"],"body":[{"return":{"binary":{"op":"+","left":{"var":"a"},"right":{"var":"b"}}}}]}},{"assert":{"left":{"call":{"name":"add","args":[{"literal":2},{"literal":4}]}},"right":{"literal":6}}}]}

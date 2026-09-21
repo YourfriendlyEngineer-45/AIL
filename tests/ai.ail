@@ -1,0 +1,1 @@
+{"version":1,"program":[{"expr":{"call":{"name":"llm","args":[{"literal":"test"}]}}},{"expr":{"call":{"name":"llm.stream","args":[{"literal":"one two"}]}}}]}

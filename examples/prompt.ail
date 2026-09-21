@@ -1,0 +1,1 @@
+{"version":1,"program":[{"prompt":{"name":"greeting","template":"Hello {name}"}},{"let":{"name":"name","value":{"literal":"Engineer"}}},{"expr":{"call":{"name":"llm","args":[{"call":{"name":"prompt.render","args":[{"var":"greeting"},{"map":{"name":{"var":"name"}}}]}}]}}}]}

@@ -1,0 +1,1 @@
+{"version":1,"program":[{"let":{"name":"x","value":{"literal":0}}},{"while":{"condition":{"binary":{"op":"<","left":{"var":"x"},"right":{"literal":3}}},"body":[{"set":{"name":"x","value":{"binary":{"op":"+","left":{"var":"x"},"right":{"literal":1}}}}}],"max":10}},{"assert":{"left":{"var":"x"},"right":{"literal":3}}}]}

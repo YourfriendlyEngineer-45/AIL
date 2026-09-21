@@ -1,0 +1,1 @@
+{"version":1,"program":[{"tool":{"name":"echo","description":"echo","schema":{"type":"object","properties":{"x":{"type":"string"}},"required":["x"]},"implementation":"echo"}},{assert":{"left":{"call":{"name":"tool.call","args":[{"literal":"echo"},{"map":{"x":{"literal":"ok"}}}]}},"right":{"map":{"x":{"literal":"ok"}}}}}]}

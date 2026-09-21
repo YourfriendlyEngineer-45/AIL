@@ -1,0 +1,1 @@
+{"version":1,"program":[{"memory":{"name":"mem"}},{"expr":{"call":{"name":"memory.set","args":[{"var":"mem"},{"literal":"user"},{"literal":"Engineer"}]} }},{"expr":{"call":{"name":"memory.get","args":[{"var":"mem"},{"literal":"user"}]}}}]}
